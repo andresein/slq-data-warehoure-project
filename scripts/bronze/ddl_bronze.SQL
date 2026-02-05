@@ -9,8 +9,8 @@ Run this scripe to re-define the DDL structure of 'bronze' tables
 ===============================================================================
 */
 
-IF OBJECT_ID ('bronze.crm_cus_info','U') IS NOT NULL
-	DROP TABLE bronze.crm_cus_info;
+IF OBJECT_ID ('bronze.crm_cust_info','U') IS NOT NULL
+	DROP TABLE bronze.crm_cust_info;
 CREATE TABLE bronze.crm_cust_info
 (
 	cst_id INT,
